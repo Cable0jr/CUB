@@ -1,0 +1,14 @@
+{
+  "name": "cub",
+  "version": "1.0.0",
+  "description": "constantiam utility bot",
+  "main": "start.js",
+  "scripts": {
+    "test": "a"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^2.7.3"
+  }
+}
