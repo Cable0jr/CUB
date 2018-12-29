@@ -98,7 +98,7 @@ function bindevents(newbot) {
             var fs = require('fs');
             fs.readFile('whois.json', function(err, data) {
                 var json = JSON.parse(data);
-                json[username] = message.replace("!iam ", "").substring(0, 25);
+                json[username] = message.replace("!iam ", "").substring(0, 150);
                 fs.writeFile("whois.json", JSON.stringify(json), (err) => {
                     if (err) throw err;
                     console.log('The file has been saved!');
